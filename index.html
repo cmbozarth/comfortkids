@@ -1,202 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Comfort Kids - Doll Ministry</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="UTF-8">
-<meta name="description" content="Comfort Kids Doll Ministry">
-<meta name="keywords" content="comfort, doll, ministry, foster, donate, charity">
-<link rel="icon" href="img/favicon.ico">
-<!--Stylesheets-->
-<link rel="stylesheet" href="vendor/css/bootstrap.min.css">
-<link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Quicksand:600&display=swap" rel="stylesheet">
-<!--Scripts-->
-<script src="vendor/jquery/jquery.min.js"></script>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Comfort Kids Doll Ministry">
+    <meta name="keywords" content="comfort, kids, doll, ministry, foster, donate, charity, sewing, craft, clothes">
+    <title>Comfort Kids</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
 
-</head>
-<body>
-<!--NAV-->
-	<nav class="navbar navbar-expand-lg navbar-light sticky-top">
-  <a class="navbar-brand" href="index.html">
-  	<img src="img/ck.png" alt="Comfort Kids Logo" />
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <nav role="navigation" class="bg-white">
+  <img class="nav-logo" src="img/comfortkids.png">
+  <button id="nav-toggle" class="mx-500 my-500"> 
+    <div class="burger" id="burger">
+      <span class="burger-line" id="burger-1"></span>
+      <span class="burger-line" id="burger-2"></span>
+      <span class="burger-line" id="burger-3"></span>
+      <!--<span class="text-fallback">Menu</span>-->
+    </div>
   </button>
-  <div class="collapse navbar-collapse navbar-container" id="navbarNav">
-    <ul class="nav navbar-nav">
-      <li class="nav-item active active-link">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        <div class="underline"></div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about_comfort_kids.html">About</a>
-        <div class="underline"></div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="get_involved.html">Get Involved!</a>
-        <div class="underline"></div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="newspage.html">News and Events</a>
-        <div class="underline"></div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="faq.html">FAQ</a>
-        <div class="underline"></div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-        <div class="underline"></div>
-      </li>
-    </ul>
-    </nav>
-    
-  </div>
+  <div id="nav-contain" class="nav-contain-hide bg-white">
+    <ul class="ff-headtext no-decoration flex-contain space-even fs-400">
+        <li>
+          <a href="index.html" class="no-decoration active">Home</a><span class="underline underline-active"></span>
+        </li>
+        <li>
+          <a href="about.html" class="no-decoration">About</a><span class="underline"></span>
+        </li>
+        <li>
+          <a href="getinvolved.html" class="no-decoration">Get Involved!</a><span class="underline"></span>
+        </li>
+        <li>
+          <a href="faq.html" class="no-decoration">FAQ</a><span class="underline"></span>
+        </li>
+        <li>
+          <a href="contact.html" class="no-decoration">Contact</a><span class="underline"></span>
+        </li>
+      </ul>
+    </div><div class="separator bg-purple"></div>
+</nav>
 
-<!--END NAV-->
-<section class="hider">
+<header class="bg-teal flex-contain row" id="logo-header">
+    <div class="flex-1">
+      <img class="header-img-1" src="img/marcus.png">
+    </div>
+    <div class="flex-1 my-auto">
+      <img class="header-img-2 text-center mx-auto my-auto" src="img/ck-white-dm.png">
+    </div>
+    <div class="flex-1 my-auto">
+      <img class="header-img-3 my-auto" class="flex-1" src="img/samandlilly.png">
+    </div>
+</header>
+
+<main>
+
+
+<div class="section-divide py-100 bg-purple shadow"></div>
+<section class="main-contain py-900" id="about">
+  <h1 class="ff-headtext fs-800 lh-700 text-center">Comfort Kids Doll Ministry</h1>
+  <br><br>
+  <div class="main-contain flex-contain align-center rev-order">
+  <div class="flex-1 m-auto px-500">
+  <img src="img/200dollsnews.jpeg" class="mx-auto my-600 shadow rounded">
+  </div>
+  <div class="flex-1 m-auto">
+  <h2 class="ff-headtext fs-700 lh-700">Who are Comfort Kids?</h2>
+  <p class="ff-bodytext fs-400 lh-600">Comfort Kids are handmade dolls designed to be huggable and cute. They're given to support children who are facing difficult times in their lives.</p>
+  <div class="my-200 text-left ff-headtext fs-400">
+    <a href="about.html"><button class="px-300 py-100"> About Comfort Kids &gt; </button></a>
+  </div>
+</div>
+</div>
 </section>
-<!--HEADER-->
-	<section class="bg-blue pt-4 pb-5 header bk-img-1">
-  <div class="container">
-	<div class="row">
-  <div class="col-md-4 col-6">
-    <img class="colby" src="img/marcus.png"/>
-  </div>
-  <div class="col-md-4 col-6">
-    <img class="img-fluid" src="img/ck-white-dm.png">
-  </div>
-  <div class="col-md-4 col-6">
-    <img class="samandlilly" src="img/samandlilly.png"/>
-  </div>
-	</div>
-  </div>
-	</section>
-<!--END HEADER-->
-  <div class="separate bg-purple"></div>
-<!--CONTENT-->
-	<section class="pt-4 pb-5 bg-green pea-animation">
-	<div class="container">
-  <h2 class="text-center pb-2">News and Events</h2>
-  
-  <div class="row">
-  
-  <div class="col-lg-4 col-md-6 mb-3">
-  <div class="card pt-3 pb-3 mb-3 news introcard h-100">
-    <img class="card-img pb-3" src="img/ck4.png"/>
-    <div class="card-body d-flex flex-column">
-    <h4 class="text-center">COVID-19 News</h4>
-    <p>We're keeping the safety of kids in mind while making use of valuable time.</p>
-    <a href="news1.html" class="btn btn-pink cardbtn mt-auto"> More Info &gt;</a>
-    </div>
-  </div>
-  </div>
-  
-  <div class="col-lg-4 col-md-6 mb-3">
-  <div class="card pt-3 pb-3 mb-3 news introcard h-100">
-    <img class="card-img pb-3" src="img/100dollsNews.jpeg"/>
-    <div class="card-body d-flex flex-column">
-    <h4 class="text-center">Over 100 Dolls Made!</h4>
-    <p>We are excited to announce that we have made over 100 dolls!</p>
-    <a href="news4.html" class="btn btn-pink cardbtn mt-auto"> Check it out! &gt;</a>
-    </div>
-  </div>
-  </div>
-  
-  <div class="col-lg-4 col-md-6 mb-3">
-  <div class="card pt-3 pb-3 mb-3 news introcard h-100">
-    <img class="card-img pb-3" src="img/ambassadollsNews.png"/>
-    <div class="card-body d-flex flex-column">
-    <h4 class="text-center">Meet the AmbassaDolls!</h4>
-    <p>Say Hi to Marcus, Sara, and Kayla</p>
-    <a href="news6.html" class="btn btn-pink cardbtn mt-auto">Read more &gt;</a>
-    </div>
-  </div>
-  </div>
-   
-    </div>
-	
-  </div>
-	</section>
-    <div class="separate bg-purple"></div>
 
-  <section class="bg-blue bg-about pt-5 pb-5">
-  <div class="container">
-  <div class="row">
-  <div class="col-md-5">
-  <img class="img-fluid circle mx-auto d-block" src="img/bffs.png" />
-  </div>
-  <div class="col-md-7 align-middle">
-  <h3 class="text-center text-white">About Comfort Kids</h3>
-  <p class="text-center text-white lead">Comfort Kids are 100&#37; handmade dolls designed to be huggable and cute. They are donated to neglected children transitioning into foster care in need of a hug and a friendly face.</p> 
-  <div class="col text-center">
-  <a href="about_comfort_kids.html"><button class="btn btn-pink text-center">Learn more &gt;</button></a>
-  </div>
-  </div>
-  </div>
-  </div>
-  </section>
-  <div class="separate bg-purple"></div>
-  <section class="bg-coral pt-5 pb-5 fabrics2">
-  <div class="container">
-  <div class="row">
-  <div class="col-md-7 text-center align-middle text-white">
-  <h3>Want to help?</h3>
-  <p class="lead">We are always looking for helpers, whether it be for creating outfits, sewing dolls, embroidering faces, or even just helping us stuff. Learn more about how you can get involved in our doll ministry.</p>
-  <a href="get_involved.html"><button class="btn btn-pink">Get Involved! &gt;</button></a>
-  </div>
-  <div class="col-md-5">
-  <img class="img-fluid circle mx-auto d-block" src="img/girls.png"/>
-  </div>
-  </div>
-  </div>
-  </section>
-<!--END CONTENT-->
-  <div class="separate bg-purple"></div>
-<!--FOOTER-->
-  <footer class="pt-4 pb-3">
-  <div class="container text-white">
-  <div class="row">
-    <div class="col-md-4">
-    <h5 class="text-center">Contact</h5>
-    <br>
-    <p class="text-center"><a href="mailto:comfortkidsdollministry@gmail.com">comfortkidsdollministry@gmail.com</a></p>
+  		<section id="get-involved" class="py-600 tealtexture">
+        <div class="main-contain flex-contain align-center">
+        <div class="flex-1 m-auto">
+        <img src="img/bffs2.png" class="featured-img">
+        </div>
+        <div class="flex-1">
+  			<h2 class="ff-headtext fs-700 lh-700">Get Involved!</h2>
+        <p class="ff-bodytext fs-400 lh-600">We are always looking for helpers, from sewing to embroidering to helping stuff dolls. Learn more about how you can get involved in this doll ministry.</p>
+        <div class="my-200 text-left ff-headtext fs-400">
+  			<a href="getinvolved.html"><button class="px-300 py-100">Learn how to get involved &gt;</button></a>
+        </div>
+      </div>
     </div>
-    <div class="col-md-4">
-    <h5 class="text-center">Follow Us!</h5>
-    <br>
-    <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-4 flex-column mx-auto">
-    <a href="https://www.facebook.com/Comfort-Kids-Doll-Ministry-108777820688746"  target="_blank"><img class="mx-auto d-block socials" src="img/facebook.png" /></a>
-    </div>
-    <div class="col-md-4"></div>
-    
-    </div>
-    </div>
-    <div class="col-md-4">
-    <p class="text-right"><a href="index.html">Home</a></p>
-    <p class="text-right"><a href="about_comfort_kids.html">About</a></p>
-    <p class="text-right"><a href="get_involved.html">Get Involved!</a></p>
-    <p class="text-right"><a href="newspage.html">News and Events</a></p>
-    <p class="text-right"><a href="faq.html">FAQ</a></p>
-    <p class="text-right"><a href="contact.html">Contact</a></p>
-    </div>
-  </div>
-  </div>
-  <p class="text-center text-white small">&copy;2020 Comfort Kids Doll Ministry</p>
-  </footer>
-<!--END FOOTER-->
+  		</section>
 
-<script src="vendor/js/bootstrap.bundle.min.js"></script>
-<script src="vendor/jquery/slim.min.js"></script>
-<script>
-$('.nav-link').on('click', function() {
-  $('.active-link').removeClass('active-link');
-  $(this).addClass('active-link');
-});
-</script>
-</body>
+  		<section id="faq" class="purpletexture py-600">
+        <div class="main-contain flex-contain align-center rev-order">
+        <div class="flex-1">
+        <img src="img/bffs.png" class="featured-img">
+      </div>
+      <div class="flex-1">
+  			<h2 class="ff-headtext fs-700 lh-700">FAQ</h2>
+        <p class="ff-bodytext fs-400 lh-600">Comfort Kids are given to children of different ages and circumstances, so our priority is making sure the recipient feels safe and is safe. Read our FAQ for more information. </p>
+        <div class="my-200 text-left ff-headtext fs-400">
+  			<a href="faq.html"><button class="px-300 py-100">Visit the FAQ &gt;</button></a>
+      </div>
+      </div>
+    </div>
+  		</section>
+
+  	</main>
+  	<footer id="footer" class="bg-darkpurple">
+  		<div class="px-800 py-400">
+			<p class="ff-bodytext my-200"><a class="text-white px-200 py-100 no-decoration" href="index.html">Home</a></p>
+			<p class="ff-bodytext my-200"><a class="text-white px-200 py-100 no-decoration" href="about.html">About</a></p>
+			<p class="ff-bodytext my-200"><a class="text-white px-200 py-100 no-decoration" href="getinvolved.html">Get Involved!</a></p>
+			<p class="ff-bodytext my-200"><a class="text-white px-200 py-100 no-decoration" href="faq.html">FAQ</a></p>
+			<p class="ff-bodytext my-200"><a class="text-white px-200 py-100 no-decoration" href="contact.html">Contact</a></p>  			
+  		<p class="ff-bodytext text-gray my-500">&copy; 2023 Comfort Kids Doll Ministry</p>
+  		</div>
+  	</footer>
+
+
+	<script src="js/script.js"></script>
+  </body>
 </html>
